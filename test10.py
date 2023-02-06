@@ -14,3 +14,8 @@ def letras(letra1, letra2, letra3):
     print(letra1, letra2, letra3)
 
 letras ("a","b", "c")
+
+tuplas = ("Adal","Asher", "Edward", "Andy")
+print(tuplas)
+
+# agrege una tupla 
