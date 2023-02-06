@@ -7,3 +7,4 @@ while i < cantidad:
     print(f'{spaces}{caracter}')
     i += 1
  
+ #Pequeño cambio
