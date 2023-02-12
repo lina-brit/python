@@ -226,8 +226,8 @@ print(valor[2])
 #print(cinco)
 
 # METODOS DE UNA TUPLA COUNT(), INDEX()
-#print(numeros.count(2))
-#print(valor.index(2))
+# print(numeros.count(2))
+# print(valor.index(2))
 
 # LISTAS EN PYTHON 
 nombres = ("lucas", "hira", "noali","hair")
