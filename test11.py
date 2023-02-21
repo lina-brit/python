@@ -20,3 +20,8 @@ for x in dias:
     print (x)
     if x == "viernes":
         break
+
+
+
+       
+
