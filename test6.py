@@ -7,4 +7,6 @@ def imprimir_piramide(pisos):
     print(f'{espacios}{asteriscos}{espacios}')
 pisos = int(input("Ingrese los pisos de la pirámide: "))
 imprimir_piramide(pisos)
- 
+
+tuple (input("agrege nombres de frutas, objetos etc:"))
+

@@ -18,9 +18,9 @@ numero = 72.4
 print (numero)
 print (type(numero))
 print("hola buenas tardes ¿me puedes dar tu nombre?")
-nombre = input()
-print (nombre)
-print (type, (nombre))
+nombrei = input()
+print (nombrei)
+print (type, (nombrei))
 print("hola buenas tardes ¿cual es su numero?")
 numero = int(input())
 print(numero)
@@ -185,9 +185,9 @@ print (nombre[0:3])
 
 # CADENAS Y SUS METODOS: UPPER(), LOWER(), REPLACE(), FORMAT()
 
-#print (nombre. upper())
-#print (nombre. lower())
-#print (nombre. replace ("G", "L") )
+print (nombre. upper())
+print (nombre. lower())
+print (nombre. replace ("G", "L") )
 print (nombre. format(edad))
 
 #COMO USAR LAS TUPLAS
@@ -292,8 +292,8 @@ mifuncion()
 def suma(x, y):
     print(x + y)
 #suma(10, 10)
-numero1 = int(input("introduce un numero:"))
-numero2 = int(input("introduce otro numero:"))
+numero1 = int(input("introduce un numero natural:"))
+numero2 = int(input("introduce otro numero natural:"))
 suma(numero1, numero2)
 
 #RECURSIVIDAD
@@ -303,7 +303,7 @@ def factor(numero):
     else:
         return (numero * factor(numero-1))
    
-factor2 = int(input("introduce un numera para que calcules su factorial:"))
+factor2 = int(input("introduce un numero para que calcules su factorial:"))
 print ("este es el resultado:", factor(factor2))
 
 #USO DE IF
@@ -385,7 +385,7 @@ class clase2:
 #ejemplo = clase2(12)
 #ejemplo.comparar ()
 #ejemplo.ciclo()
-ejemplo = clase2(int(input("dame un numero:")))
+ejemplo = clase2(int(input("dame un numero entero:")))
 #ejemplo.comparar()
 ejemplo.ciclo()
 
@@ -432,7 +432,3 @@ ejemplo = encap()
 ejemplo.operacion()
 ejemplo.numero = 100
 print(ejemplo. resultado())
-
-
-
-

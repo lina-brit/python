@@ -21,7 +21,17 @@ for x in dias:
     if x == "viernes":
         break
 
-
+nombre =  "Gimena {}" 
+nombres = """lina
+noah
+willian
+lilian
+"""
+edad = 22
+print (nombre. upper())
+print (nombre. lower())
+print (nombre. replace ("G", "L") )
+print (nombre. format(edad))
 
        
 
