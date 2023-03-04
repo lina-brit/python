@@ -15,3 +15,6 @@ print(x)
 print(listas. keys())
 print(tupla .values())
 print(nombre. items())
+
+
+print("hello")
