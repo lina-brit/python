@@ -191,12 +191,12 @@ print (nombre. replace ("G", "L") )
 print (nombre. format(edad))
 
 #COMO USAR LAS TUPLAS
-nombres = ("tetera","ollas", "sarten", "termo")
+nombresito = ("tetera","ollas", "sarten", "termo")
 numeros = (25, 34,34,77)
 valor = (True, False, True)
 comvinada = ("tetera", 2, 4, True, False)
 
-print(nombres)
+print(nombresito)
 print (numeros)
 print (valor)
 print (comvinada)
