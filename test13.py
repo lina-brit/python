@@ -53,3 +53,9 @@ print (http_error(400))
 print (http_error(404))
 print (http_error(418))
 print (http_error(555))
+
+Diasdelasemana = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"]
+for x in Diasdelasemana:
+    if x == "Miercoles":
+        break
+    print(x)
