@@ -59,3 +59,10 @@ for x in Diasdelasemana:
     if x == "Miercoles":
         break
     print(x)
+
+def suma (x, y):
+    print( x + y)
+
+numeral1 = int(input("introduce un numero natural:"))
+numeral2 = int(input("introduce otro numero natural:"))
+suma(numeral1, numeral2)

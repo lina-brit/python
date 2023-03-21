@@ -60,4 +60,13 @@ ejemplo.mensaje3()
 ejemplo.mensaje6()
 ejemplo.mensaje4()
 
-#;)
+def multiplicación( x, l):
+    print(x * l)
+numerosos = int(input("Por favor inserte un numero: "))
+numerosos1 = int(input("Por favor inserte otro numero:"))
+multiplicación( numerosos, numerosos1)
+from math import sqrt
+numero= int (input("Por favor ingrese un numero:"))
+ 
+resultado= sqrt(numero)
+print(resultado)
