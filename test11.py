@@ -34,14 +34,16 @@ print (nombre. replace ("G", "L") )
 print (nombre. format(edad))
 
        
+
+
 class encap:
     def __init__(self):
-        self.numero = 0
-    def operacion(self):
-        print(self. numero + 30)
+        self.numeración = 0
+    def operación(self):
+        print(self.numero + 40)
     def resultado(self):
         return self.numero
-ejemplo = encap()
-ejemplo.operacion()
-ejemplo.numero = 113
-print(ejemplo. resultado())
+ejemplos = encap()
+ejemplos. operación ()
+ejemplos.numeración = 112
+print(ejemplos.resultado())
