@@ -4,7 +4,7 @@ numeral = float(input("ingrese un numero: "))
 nuemral2 = float(input("ingrese un numero:"))
 suma(numeral , nuemral2)
 
-
+#Resta
 def resta(x, y):
   print(x - y)
 numeros = float(input("Ingrese un numero:"))
